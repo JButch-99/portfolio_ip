@@ -33,16 +33,28 @@ h1.name {
 }
 
 .item1 {
-  grid-area: 1/4/4/13;
+  grid-area: 1/2/3/11;
   background: linear-gradient(black, grey, lightgrey, white);
   text-align: center;
   border: solid black 3px;
 }
 
 .item2 {
-  grid-area: 1/1/13/4;
+  grid-area: 1/1/11/3;
   background-color: lightgray;
   border: solid black 3px;
+}
+
+.item3 {
+  grid-area: 1/11/11/13;
+  background-color: lightgray;
+  border: solid black 3px;
+}
+
+.item4 {
+  background-color: lightgray;
+  border: solid black 3px;
+  grid-area: 11/1/13/13
 }
 
 .user {
@@ -54,20 +66,33 @@ h1.name {
 .n1 {
   background-color: darkgrey;
   margin-bottom: 10%;
+  padding: 1% 10%;
+  font-family: fantasy;
 }
 
 .personal {
-  font-size: 125%;
-  flex-flow: row wrap;
+  font-size: 100%;
+  text-align: center;
   margin: 10% 10%;
   background-color: white;
-  border: ridge grey 5px;
+  border: ridge grey 20px;
 }
 
 .bio {
-  margin: 2% 2%;
-  font-size: 80%;
+  margin: 5% 5%;
+  font-size: 85%;
   text-align: center;
+  font-weight: 400;
+  font-family: monospace;
+}
+
+h3 {
+  font-size: 130%;
+  border: solid black px;
+  background-color: grey;
+  color: black;
+  margin-bottom: 5%;
+  padding: 1% 1%;
 }
 
 .abouth1 {
