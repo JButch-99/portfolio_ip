@@ -4,15 +4,20 @@ body {
   font-weight:400px;
 }
 
+h1 {
+  text-align: center;
+}
+
 h1.name {
   color: grey;
-  background-color: white;
-  border: solid black 3px;
+  background-color: goldenrod;
+  border: solid gold 3px;
   max-width: 100%;
-  
   font-size: 200%;
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 1px;
+  margin-top: 1%;
+  border-radius: 75%;
 }
 
 .grid-body {
@@ -22,21 +27,22 @@ h1.name {
 }
 
 .ul1 {
-  background-color: blue;
+  background-color: white;
+  margin: 5%;
+  border: ridge black 5px;
 }
 
 .item1 {
-  grid-area: 1/1/4/13;
+  grid-area: 1/4/4/13;
   background: linear-gradient(black, grey, lightgrey, white);
   text-align: center;
   border: solid black 3px;
 }
 
 .item2 {
-  grid-area: 4/1/13/3;
+  grid-area: 1/1/13/4;
   background-color: lightgray;
   border: solid black 3px;
-  text-align: center;
 }
 
 .user {
@@ -47,7 +53,21 @@ h1.name {
 
 .n1 {
   background-color: darkgrey;
-  margin-bottom: 30%;
+  margin-bottom: 10%;
+}
+
+.personal {
+  font-size: 125%;
+  flex-flow: row wrap;
+  margin: 10% 10%;
+  background-color: white;
+  border: ridge grey 5px;
+}
+
+.bio {
+  margin: 2% 2%;
+  font-size: 80%;
+  text-align: center;
 }
 
 .abouth1 {
@@ -56,11 +76,7 @@ h1.name {
 }
 
 .aboutul {
-  margin-top: 10%;
-  margin-right: 20%;
-  margin-right: 20%;
-  font-weight: 500px;
-  font-size: 150%;
+  text-align: left;
 }
 
 .box1 {
@@ -70,9 +86,4 @@ h1.name {
   color: black;
   text-align: center;
   font-family: fantasy;
-}
-
-.personal {
-  font-size: 125%;
-  flex-flow: row wrap;
 }
