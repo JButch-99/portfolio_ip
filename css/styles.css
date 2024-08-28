@@ -1,43 +1,78 @@
+
+body {
+  background-color: gray;
+  font-weight:400px;
+}
+
+h1.name {
+  color: grey;
+  background-color: white;
+  border: solid black 3px;
+  max-width: 100%;
+  
+  font-size: 200%;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+}
+
 .grid-body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
 }
 
-body {
-  background-color: royalblue;
-}
-
-h1.name {
-  color: grey;
-  background-color: white;
-  font-size: 250%;
-  -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: 1px;
+.ul1 {
+  background-color: blue;
 }
 
 .item1 {
-  grid-area: 1/1/13/5;
-  background-color: purple;
+  grid-area: 1/1/4/13;
+  background: linear-gradient(black, grey, lightgrey, white);
   text-align: center;
   border: solid black 3px;
 }
 
 .item2 {
-  background-color: red;
-  grid-area: 1/5/5/13;
-}
-
-.i1 {
-  background-color: blue;
-}
-
-.i2 {
-  background-color: yellow;
+  grid-area: 4/1/13/3;
+  background-color: lightgray;
+  border: solid black 3px;
+  text-align: center;
 }
 
 .user {
-  width: 75%;
+  width: 35%;
   height: 75%;
   border: ridge gray 10px;
+}
+
+.n1 {
+  background-color: darkgrey;
+  margin-bottom: 30%;
+}
+
+.abouth1 {
+  font-family: monospace;
+  font-weight:900;
+}
+
+.aboutul {
+  margin-top: 10%;
+  margin-right: 20%;
+  margin-right: 20%;
+  font-weight: 500px;
+  font-size: 150%;
+}
+
+.box1 {
+  color: white;
+  border: solid black 5px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-family: fantasy;
+}
+
+.personal {
+  font-size: 125%;
+  flex-flow: row wrap;
 }
