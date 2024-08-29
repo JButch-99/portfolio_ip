@@ -51,6 +51,10 @@ h1.name {
   border: solid black 3px;
 }
 
+ul.ed {
+  text-align: left;
+}
+
 .item4 {
   background-color: lightgray;
   border: solid black 3px;
@@ -84,6 +88,7 @@ h1.name {
   text-align: center;
   font-weight: 400;
   font-family: monospace;
+  overflow-wrap:break-word;
 }
 
 h3 {
