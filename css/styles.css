@@ -32,22 +32,8 @@ h3 {
   text-align: center;
 }
 
-ul {
-  list-style:none;
-}
-
 ul.ed {
   text-align: left;
-  list-style:circle;
-}
-
-ul.github {
-  text-align: left;
-}
-
-.info {
-  margin: 0% 15%;
-  text-align: center;
 }
 
 .project {
@@ -89,15 +75,9 @@ ul.github {
 
 .item5 {
   background-color: slategray;
-  grid-area: 4/3/6/11;
+  grid-area: 3/3/4/11;
   border: solid black 3px;
   text-align: center;
-}
-
-.item6 {
-  background-color: darkslategray;
-  border: solid black 3px;
-  grid-area: 3/3/3/11;
 }
 
 .about {
@@ -108,7 +88,8 @@ ul.github {
 
 .user {
   width: 35%;
-  height: 75%;
+  height: 85%;
+  margin-bottom: 5%;
   border: ridge gray 10px;
 }
 
@@ -145,10 +126,15 @@ ul.github {
   overflow-wrap:break-word;
 }
 
-.box1 {
-  background-color: white;
-  border: solid black 4px;
-  margin: 1% 25%;
-  max-width: 75%;
+.download {
+  font-size: 125%;
+  font-family: fantasy;
+  background-color: black;
+  border: solid grey 3px;
 }
 
+.daisy {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: brown;
+  color: white;
+}
