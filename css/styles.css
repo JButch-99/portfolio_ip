@@ -10,16 +10,13 @@ h1 {
 
 h1.name {
   color: white;
-  background-color: goldenrod;
-  border: solid gold 3px;
+  background-color: Black;
+  border: solid purple 3px;
   max-width: 100%;
   font-size: 200%;
   font-weight: 900;
-  font-family: Arial, Helvetica, sans-serif;
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 3px;
-  margin-top: 1%;
-  border-radius: 85%;
 }
 
 h3 {
@@ -39,6 +36,10 @@ a {
 
 ul.ed {
   text-align: left;
+}
+
+li {
+  margin-bottom: 5%;
 }
 
 .project {
@@ -105,9 +106,8 @@ ul.ed {
 }
 
 .user {
-  width: 35%;
-  height: 85%;
-  margin-bottom: 5%;
+  width: 45%;
+  margin: .25% 0%;
   border: ridge gray 10px;
 }
 
@@ -151,9 +151,7 @@ ul.ed {
   border: solid grey 3px;
 }
 
-.daisy {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: brown;
-  color: white;
+.skills {
+  font-size: 125%;
+  margin-bottom: 10px;
 }
-
