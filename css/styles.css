@@ -80,14 +80,22 @@ ul.ed {
 
 .item5 {
   background-color: slategray;
-  grid-area: 2/3/3/11;
+  grid-area: 2/3/11/11;
   border: solid black 1px;
   text-align: center;
 }
 
 .dialogue {
-  font-size: 200%;
+  font-size: 175%;
+  margin: 5% 5%;
+  font-family: monospace;
+}
+
+.question {
   font-family: cursive;
+  color: white;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
 }
 
 .about {
@@ -148,3 +156,4 @@ ul.ed {
   -webkit-text-stroke-color: brown;
   color: white;
 }
+
