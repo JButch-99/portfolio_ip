@@ -11,7 +11,7 @@ h1 {
 h1.name {
   color: white;
   background-color: Black;
-  border: solid purple 3px;
+  border: solid slategray 3px;
   max-width: 100%;
   font-size: 200%;
   font-weight: 900;
@@ -36,6 +36,11 @@ ul.ed {
 
 li {
   margin-bottom: 5%;
+}
+
+a {
+  font-size: 125%;
+  font-weight: 500;
 }
 
 .project {
@@ -116,7 +121,7 @@ li {
 }
 
 .n2 {
-  background-color: white;
+  background-color: grey;
   padding: 2% 2%;
   margin: 2% 2%;
   border: solid black 13px;
@@ -152,11 +157,24 @@ li {
   margin-bottom: 10px;
 }
 
-.red {
-  background-color: lightsalmon;
-}
-
 .link {
   color: white;
-  font-size: 125%;
+}
+
+.song {
+  color: black;
+}
+
+.right {
+  float: left;
+  background-color: red;
+  padding: 5% 20%;
+  margin: 0% 2%;
+}
+
+.left {
+  float: right;
+  background-color: blue;
+  padding: 5% 20%;
+  margin: 0% 2%;
 }
