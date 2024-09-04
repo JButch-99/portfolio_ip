@@ -30,6 +30,11 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  background-color: white;
+  border: solid black 3px;
+}
+
 ul.ed {
   text-align: left;
 }
@@ -38,14 +43,13 @@ li {
   margin-bottom: 5%;
 }
 
+ol {
+  text-align: left;
+}
+
 a {
   font-size: 125%;
   font-weight: 500;
-}
-
-.project {
-  background-color: slategray;
-  text-align: center;
 }
 
 .grid-body {
@@ -84,7 +88,6 @@ a {
   background-color: slategray;
   grid-area: 2/3/11/11;
   border: solid black 1px;
-  text-align: center;
 }
 
 .dialogue {
@@ -165,16 +168,14 @@ a {
   color: black;
 }
 
-.right {
+.left {
   float: left;
-  background-color: red;
-  padding: 5% 20%;
-  margin: 0% 2%;
+  background-color: yellow;
+  border: solid black 5px;
+  text-align: center;
 }
 
-.left {
-  float: right;
-  background-color: blue;
-  padding: 5% 20%;
-  margin: 0% 2%;
+.box1 {
+  border: solid black 3px;
+  background-color: red;
 }
