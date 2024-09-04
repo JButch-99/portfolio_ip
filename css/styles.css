@@ -50,6 +50,7 @@ ol {
 a {
   font-size: 125%;
   font-weight: 500;
+  color: black;
 }
 
 .grid-body {
@@ -164,18 +165,16 @@ a {
   color: white;
 }
 
-.song {
-  color: black;
-}
-
 .left {
   float: left;
-  background-color: yellow;
+  background-color: grey;
   border: solid black 5px;
-  text-align: center;
+  margin-left: 10%;
+  padding: 1% 1%;
+  width: 50%;
 }
 
 .box1 {
-  border: solid black 3px;
-  background-color: red;
+  border: solid black 5px;
+  background-color: white;
 }
