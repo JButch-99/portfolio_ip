@@ -16,7 +16,7 @@ h1.name {
   font-size: 200%;
   font-weight: 900;
   -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 1px;
 }
 
 h3 {
@@ -119,7 +119,7 @@ a {
   background-color: darkgrey;
   margin-bottom: 10%;
   padding: 1% 10%;
-  font-family: fantasy;
+  font-family: monospace;
   border: solid black 3px;
 }
 
@@ -128,7 +128,7 @@ a {
   padding: 2% 2%;
   margin: 2% 2%;
   border: solid black 13px;
-  font-family:fantasy;
+  font-family:cursive;
 }
 
 .personal {
