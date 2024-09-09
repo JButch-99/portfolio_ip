@@ -115,21 +115,12 @@ a {
   border: ridge gray 10px;
 }
 
-.n1 {
+.head-1 {
   background-color: darkgrey;
   margin-bottom: 10%;
   padding: 1% 10%;
   font-family: fangsong;
   border: solid black 3px;
-}
-
-.n2 {
-  background-color: grey;
-  padding: 2% 2%;
-  margin: 2% 2%;
-  border: solid black 13px;
-  font-family:cursive;
-}
 
 .personal {
   font-size: 100%;
