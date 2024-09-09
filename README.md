@@ -29,7 +29,7 @@
 
 * _Item1 header may occasionally stretch. Will be fixed as a later time._
 
-* _The Item2, Item3, and Item4 may have content sizing issues depending device viewing the page._
+* _The Item2, Item3, and Item4 sections may have content sizing issues depending device viewing the page._
 
 * _Item4's codescreen img may fail to load, depending  on the device._
 
