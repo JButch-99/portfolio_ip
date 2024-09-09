@@ -59,32 +59,32 @@ a {
   grid-template-rows: repeat(10, 1fr);
 }
 
-.item1 {
+.item-1 {
   grid-area: 1/4/2/8;
   background: linear-gradient(black, grey, lightgrey, white);
   text-align: center;
   border: solid black 3px;
 }
 
-.item2 {
+.item-2 {
   grid-area: 1/1/11/4;
   background-color: lightgray;
   border: solid black 3px;
 }
 
-.item3 {
+.item-3 {
   grid-area: 1/8/11/11;
   background-color: lightgray;
   border: solid black 3px;
 }
 
-.item4 {
+.item-4 {
   background-color: slategray;
   grid-area: 2/4/10/8;
   border: solid black 1px;
 }
 
-.item5 {
+.item-5 {
   background-color: lightgray;
   border: solid black 3px;
   grid-area: 10/4/11/8;
