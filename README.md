@@ -2,7 +2,7 @@
 
 #### By _**JButch-99**_
 
-#### _This is a portfolio made with the guidance of Fidgetech to showcase my knowledge, skills, and how far I've came along in my coding journey. It has 5 total sections. Each of these sections cover a portion about myself or my work. It covers things such as my education, what I use to create my projects, and much more.  Throughout are several links, from songs to other projects I've created._
+#### _This is a portfolio made for my first independent project._
 
 ## Technologies Used 
 
@@ -10,6 +10,10 @@
 * _CSS_
 * _Bootstrap_
 * _Markdown_
+
+## Description
+
+#### _This is a portfolio made with the guidance of Fidgetech to showcase my knowledge, skills, and how far I've came along in my coding journey. It has 5 total sections. Each of these sections cover a portion about myself or my work. It covers things such as my education, what I use to create my projects, and much more.  Throughout are several links, from songs to other projects I've created. Lastly, it will also contain why I've chosen this field._
 
 ## Setup / Installation
 
