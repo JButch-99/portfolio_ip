@@ -35,4 +35,5 @@
 
 ## License
 
+[MIT](/LICENSE.txt)
 Copyright (c) _9/6/2024_ _JButch-99_
